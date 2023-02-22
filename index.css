@@ -1,0 +1,99 @@
+/* Variables de couleur */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #e67e22;
+    --neutral-light-color: #f5f5f5;
+    --neutral-dark-color: #34495e;
+}
+
+/* Styles de la page */
+body {
+    font-family: Segoe UI, sans-serif;
+    background-image: url("https://live.staticflickr.com/7592/16888464777_0073470e81_b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.info-section {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-card {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease-in-out;
+    flex-basis: calc(50% - 40px);
+    max-width: 500px;
+}
+
+.techpicture {
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease-in-out;
+    flex-basis: calc(50% - 40px);
+    max-width: 300px; 
+}
+
+.info-card:hover {
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color:  #2c5484;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 20px auto 0;
+    border-radius: 10px;
+}
+
+  
+  /* Responsive design */
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    .info-card {
+      padding: 20px;
+      margin: 10px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }
+  
