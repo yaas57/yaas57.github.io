@@ -11,7 +11,7 @@ body {
     font-family: Segoe UI, sans-serif;
     background-image: url("https://live.staticflickr.com/7592/16888464777_0073470e81_b.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: center center;
 }
 
